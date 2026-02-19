@@ -1,0 +1,59 @@
+# Godot 忽略文件
+*.import
+*.translation
+*.dcc
+*.tmp
+*.log
+*.tres~
+*.tscn~
+*.gd~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# 编辑器文件
+.vscode/
+.idea/
+*.code-workspace
+.vs/
+
+# 导出文件
+*.exe
+*.apk
+*.aab
+*.pck
+*.zip
+export/
+exports/
+
+# 用户配置
+editor_settings-*.tres
+project.godot~
+.project.godot~
+.godot/
+
+# 保存文件
+saves/
+*.save
+*.json
+*.sav
+
+# 敏感信息
+*.secret
+.env
+.env.local
+
+# 构建目录
+bin/
+obj/
+build/
+dist/
+
+# 日志
+*.log
+logs/
